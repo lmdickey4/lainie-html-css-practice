@@ -40,11 +40,10 @@ h3 {
 }
 
 .photocredit {
-  margin-top: .5px;
-  margin-bottom: 10px;
+  margin-top: -3px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: .9rem;
-  float: right;
+  text-align: right;
 }
 
 .byline {
@@ -54,21 +53,22 @@ h3 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#blockquote {
+.byline span {
+  font-style: italic;
+}
+
+blockquote {
   border-left: 4px grey solid;
-  padding: 20px 0;
-  margin-left: 30px;
+  padding-left: 20px;
   font-size: 1.25rem;
 }
 
-#firstparagraph {
-  margin-top: 30px;
-}
 
 #comment-notes {
   background-color: #CCC;
-  margin-top: 12px;
-  margin-left: 12px;
-  margin-bottom: 12px;
-  margin-right: 12px;
+  padding: 2px 25px;
+}
+
+ol {
+  list-style-position: outside;
 }
